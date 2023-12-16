@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquerylink.js"></script>
+    <link rel="stylesheet" href="./project.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-fluid bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 Menu">      
+                    <ul>
+                        <li>
+                            <a href=""><i class="fa-solid fa-house"></i></a>
+                        </li>
+                    </ul>
+                    <!-- <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Content</a>
+                        </li>
+                        <li>
+                            <a href="">Profile</a>
+                        </li>
+                        <li>
+                            <a href="">Contect</a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3" >
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="box-right">
+                    <ul>
+                        <!-- <li>
+                            <a href="">Home</a>
+                            <i class="fa-solid fa-plus"></i>
+                        </li>
+                        <li>
+                            <a href="">Home</a>
+                            <i class="fa-solid fa-plus"></i>
+                        </li>
+                        <li>
+                            <a href="">Home</a>
+                            <i class="fa-solid fa-plus"></i>
+                        </li>
+                        <li>
+                            <a href="">Home</a>
+                            <i class="fa-solid fa-plus"></i>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8">
+                <div class="box-left">
+                    <div class="slid">
+                        <img src="https://images.pexels.com/photos/18824575/pexels-photo-18824575/free-photo-of-a-man-is-standing-in-front-of-a-mountain.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://images.pexels.com/photos/18879424/pexels-photo-18879424/free-photo-of-hullamok.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://images.pexels.com/photos/18819885/pexels-photo-18819885/free-photo-of-pigeons-perching-on-an-open-window.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://images.pexels.com/photos/6039877/pexels-photo-6039877.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://images.pexels.com/photos/18926717/pexels-photo-18926717/free-photo-of-glacier-on-a-beach-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+                    </div>
+                    <div>
+                        <div class="btn-right"><i class="fa-solid fa-chevron-right"></i></div>
+                        <div class="btn-left"><i class="fa-solid fa-chevron-left"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="con-box">
+        <div class="row">
+            <!-- <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="box-item">
+                    <img src="https://images.pexels.com/photos/18940197/pexels-photo-18940197/free-photo-of-albino-cockatiel.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+                    <h3>Product</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+<script>
+    const Menus=["Home","About","Contect","Profile"];
+    const Item=[
+  {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mens Casual Premium Slim Fit T-Shirts ",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+    "title": "Mens Cotton Jacket",
+    "price": 55.99,
+    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 4,
+    "title": "Mens Casual Slim Fit",
+    "price": 15.99,
+    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 5,
+    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    "price": 695,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 6,
+    "title": "Solid Gold Petite Micropave ",
+    "price": 168,
+    "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 70
+    }
+  },
+  {
+    "id": 7,
+    "title": "White Gold Plated Princess",
+    "price": 9.99,
+    "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 3,
+      "count": 400
+    }
+  },
+  {
+    "id": 8,
+    "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+    "price": 10.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 1.9,
+      "count": 100
+    }
+  },
+  {
+    "id": 9,
+    "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+    "price": 64,
+    "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    "rating": {
+      "rate": 3.3,
+      "count": 203
+    }
+  },
+  {
+    "id": 10,
+    "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+    "price": 109,
+    "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 470
+    }
+  },
+  {
+    "id": 11,
+    "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+    "price": 109,
+    "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 319
+    }
+  },
+];
+    $(document).ready(function(){
+
+        var data=""
+        var data2=""
+        for (const M of Menus) {
+            data+=`
+                    <li>
+                        <a href="">${M}</a>
+                     </li>
+            `
+            // console.log(M);
+            data2+=`
+                    <li>
+                        <a href="">${M}</a>
+                        <i class="fa-solid fa-plus"></i>
+                     </li>
+            `
+            // console.log(M);
+        }
+        $(".Menu").find("ul").append(data);
+        $(".box-right").find("ul").html(data2);
+    
+        var slid=$(".slid");
+        var slidindex=0;
+        var slidnum=slid.length;
+        slid.hide();
+        slid.eq(0).show();
+        $(".btn-right").click(function(){
+            slid.eq(slidindex).hide();
+            slidindex++;
+            if(slidindex==slidnum){
+                slidindex=0;
+            }
+            slid.eq(slidindex).show();
+            // alert(123);
+        })
+        $(".btn-left").click(function(){
+            slid.eq(slidindex).hide();
+            slidindex--;
+            if(slidindex<=0){
+                slidindex=slidnum;
+            }
+            slid.eq(slidindex).show();
+            // alert(123);
+        })
+
+        getItem();
+        var itemPro=" "
+        function getItem(){
+            for (const i of Item) {
+                itemPro+=`
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                    <div class="box-item">
+                    <img src=${i.image} alt="">
+                    <h3>${i.id}</h3>
+                    <p>${i.title}</p>
+                </div>
+                </div> 
+                `
+            }
+            $("#con-box").find(".row").html(itemPro);
+        }
+    })
+</script>
+</html>
